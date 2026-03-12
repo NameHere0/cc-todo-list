@@ -36,6 +36,8 @@ function App() {
         <h1>Todo List</h1>
         <TodoInput onAdd={addTodo} />
         <TodoList todos={todos} onDelete={deleteTodo} />
+
+        <p>{todos.length} todos in there</p>
       </div>
       <div className="color">
         {/* Apply the state variable directly to the style attribute */}
